@@ -6,7 +6,7 @@ function randompickerbtn() {
       color += colorArr[randomNum];
     }
     let colorChange = document.getElementById("randomPicker").style.backgroundColor = '#' + color;
-    let valueChange = document.getElementById("randomValuePara").innerHTML = color;
+    let valueChange = document.getElementById("randomValuePara").innerHTML = '#' + color;
 
   }
 
