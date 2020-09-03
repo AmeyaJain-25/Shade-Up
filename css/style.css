@@ -16,11 +16,11 @@ header section{
 
 
 :root{
-    --font-1: 'Fondamento', cursive;
-    --font-2: 'Grenze Gotisch', cursive;
-    --font-3: 'Iceland', cursive;
-    --font-4: 'Inconsolata', monospace;
-    --font-5: 'Kalam', cursive;
+    --font-1: 'Montserrat Alternates', sans-serif;
+    --font-2: 'Montserrat Alternates', sans-serif;
+    --font-3: 'Montserrat Alternates', sans-serif;
+    --font-4: 'Montserrat Alternates', sans-serif;
+    --font-5: 'Montserrat Alternates', sans-serif;
     --font-6: 'Pacifico', cursive;
     --font-7: 'Architects Daughter', cursive;
     --font-8: 'Dancing Script', cursive;
@@ -30,9 +30,9 @@ header section{
     --font-12: 'Tangerine', cursive;
     --font-13: 'Cormorant Upright', serif;
     --font-14: 'Paprika', cursive;
-    --font-15: 'Audiowide', cursive;
-    --font-16: 'Bad Script', cursive;
-    --font-17: 'Caveat', cursive;
+    --font-15: 'Montserrat Alternates', sans-serif;
+    --font-16: 'Cairo', sans-serif;
+    --font-17: 'Cairo', sans-serif;
     --font-18: 'Just Another Hand', cursive;
     --font-19: 'Alegreya', serif;
     --font-20: 'Cairo', sans-serif;
@@ -40,8 +40,8 @@ header section{
     --font-22: 'Lora', serif;
     --font-23: 'Montserrat Alternates', sans-serif;
     --font-24: 'Playfair Display', serif;
-    --font-25: 'Titillium Web', sans-serif;
-    --font-raleway: 'Raleway', sans-serif;
+    --font-25: 'Montserrat Alternates', sans-serif;
+    --font-raleway: 'Cairo', sans-serif;
     --light-black: #2e2c2caf;
     --bggradient: linear-gradient(to bottom, #c80303, #851919, #5f2a07, #ffca3a);
     --bggradient1: linear-gradient(to bottom, #022410, #229954, #2ec96e, #8fe7a5);
@@ -91,7 +91,7 @@ header section{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  font-family: var(--font-14);
+  font-family: var(--font-14); 
   color: rgb(202, 20, 20);
   display: block;
   transition: 0.3s;
@@ -173,7 +173,7 @@ header section{
 
 
   body{
-    background: #FEFCFF;
+    background: rgb(206, 189, 161);
   }
 
 
@@ -211,14 +211,21 @@ header section{
   text-decoration: none;
 }
 
+.features .col-md-4:hover{
+  transform: scale(1.15);
+  z-index: 99;
+}
+
+
 .features .text-center{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  min-height: 220px;
   overflow: hidden;
   padding: 25px 35px;
   position: relative;
   transition: all 0.5s ease 0s;
   z-index: 9;
-  background:  tomato;
+  background:  rgba(255, 0, 0, 1);
   border-radius: 15px;
   margin-bottom: 2vmin;
   cursor: pointer;
@@ -281,7 +288,7 @@ header section{
 }
 
 .features .text-center:hover h3{
-  color: firebrick;
+  color: rgb(255, 211, 211);
 }
 
 
@@ -349,7 +356,6 @@ header section{
 
   /* hexFinder-cont-start */
   .hexFinder-cont{
-    border-top: 3px dotted slategray;
     margin-top: 10vmin;
     margin-bottom: 5vmin;
   }
@@ -359,7 +365,7 @@ header section{
     margin-bottom: 5vmin;
     font-family: var(--font-raleway);
     font-size: 3em;
-    color: coral;
+    color: gold;
     font-weight: bold;
     text-align: center;
   }
@@ -414,7 +420,6 @@ header section{
 
 
 .rgbFinder-cont{
-  border-top: 3px dotted coral;
   margin-top: 10vmin;
   margin-bottom: 5vmin;
 }
@@ -470,7 +475,6 @@ header section{
 
 
 .RangeFinder-cont{
-  border-top: 3px dotted saddlebrown;
   margin-top: 10vmin;
   margin-bottom: 5vmin;
 }
@@ -522,7 +526,6 @@ header section{
 
 /* hexToRgbConverter-start */
 .hexTrgbConv-cont{
-  border-top: 3px dotted rgb(231, 73, 11);
   margin-top: 10vmin;
   margin-bottom: 5vmin;
 }
@@ -549,7 +552,7 @@ header section{
   margin-bottom: 5vmin;
   font-family: var(--font-20);
   font-size: 3em;
-  color: chocolate;
+  color: steelblue;
   font-weight: bold;
   text-align: center;
 }
@@ -570,7 +573,7 @@ header section{
 
 .hexTrgbConv-cont .col-md-6 a{
   font-family: var(--font-25);
-  background-color: greenyellow;
+  background-color: steelblue;
   color: green;
   margin-top: 2vmin;
   margin-bottom: 2vmin;
@@ -598,7 +601,6 @@ header section{
 
 /* RgbTohexConverter-start */
 .rgbThexConv-cont{
-  border-top: 3px dotted rgb(185, 130, 27);
   margin-top: 10vmin;
   margin-bottom: 5vmin;
 }
@@ -609,7 +611,7 @@ header section{
   margin-bottom: 5vmin;
   font-family: var(--font-20);
   font-size: 3em;
-  color: rgb(30, 210, 69);
+  color: gold;
   font-weight: bold;
   text-align: center;
 }
